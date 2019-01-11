@@ -21,11 +21,41 @@ h1{
 h2{
     font-size: 24px;
 }
+a{
+    color:red;
+}
 
-.secImg{
+.divContent{
+    width: 100%;
+    margin:0;
+    padding: 50px;
+}
+
+.divLeft{
+    padding: 0px 0 0 80px;
+    width: 53%;
     float: left;
 }
 
-.secList{
-float: right
+.divRight{
+    width:35%;
+    float: right;
+    padding: 0px 20px 0 0;
 }
+
+.secImg{
+    float: left;
+    width: 40%;
+}
+
+.secTxt{
+    float: right;
+    width: 60%;
+    /*padding: 10px 0 0 50px;
+    text-align: justify;*/
+}
+
+/*.secList{
+float: right;
+width: 100%;
+}*/
